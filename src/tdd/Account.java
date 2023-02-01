@@ -11,19 +11,23 @@ public class Account {
         }
     }
 
-   // public int getBalance() {
-       // return balance;
+    public int getBalance(){
+        return balance;
     }
 
-    //public void Withdrawal(int amount) {
-       // if (amount > 0 && amount <= 0)
-            //balance = balance - amount;
-   // }
+    public String toString(){
+        return("{"+"balance:"+getBalance() +"}");
+    }
+}
+//public void Withdrawal(int amount) {
+// if (amount > 0 && amount <= 0)
+//balance = balance - amount;
+// }
 
-   // public String setPin(String pin) ;
+// public String setPin(String pin) ;
 
 
-        //}
+//}
 
 
-   // }
+// }

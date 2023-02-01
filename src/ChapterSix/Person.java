@@ -1,5 +1,7 @@
 package ChapterSix;
 
+import ChapterSix.ClassExercises.Enums.Gender;
+
 public class Person {
     private String name;
     private int age;

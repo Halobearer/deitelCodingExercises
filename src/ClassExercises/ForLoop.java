@@ -16,6 +16,7 @@ public class ForLoop {
         // loop continuation condition
         //post-condition
         //i means count(so it can be: for (int count=0;count <=10;count++)
+            System.out.println(i + " times " +number+ " is " +number * i);
 
         }
         System.out.println(" factorial is " + number);

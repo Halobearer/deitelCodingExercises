@@ -15,7 +15,6 @@ public class AccountDriver {
 
         System.out.println(" Enter amount to deposit ");
             int deposit = input.nextInt();
-
             damian.deposit(deposit);
             int balance = damian.getBalance();
 
