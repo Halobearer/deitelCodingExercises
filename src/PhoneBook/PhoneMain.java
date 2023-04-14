@@ -67,30 +67,44 @@ public class PhoneMain {
     }
 
     private static void viewContacts() {
-        String name = input("Enter contact name");
-        display(phoneBookApp.viewContacts(name).toString());
+        // String name = input("Enter contact name");
+        display(phoneBookApp.viewContacts(phoneBookApp.toString()).toString());
 
         goToMainPage();
     }
 
     private static void findContacts() {
-
+        String userChoice = input("What Contact would you like to find: ");
+        display(phoneBookApp.findContacts(userChoice).toString());
     }
 
     private static void editContacts() {
+        String PreviousName = input(" Enter the name you want to find : ");
+        String name = input("Enter the new Name: ");
+        String address = input("Enter the Address: ");
+        long phoneNumber = Long.parseLong(input("Enter the phone number:"));
+        phoneBookApp.editContacts(PreviousName, name, address, phoneNumber);
 
+        goToMainPage();
     }
 
     private static void countContacts() {
+        phoneBookApp.countContacts();
 
+        goToMainPage();
     }
 
     private static void deleteContacts() {
+        String userChoice = input("Enter the name: ");
+        phoneBookApp.deleteContacts(userChoice);
+        display("Contact deleted successfully\n Retrieval is IMPOSSIBLE!!!");
 
+        goToMainPage();
     }
 
     private static void exitApplication() {
-
+        display("Byeeeeeeeeeee");
+        System.exit(1);
     }
 
     private static String input(String prompt) {

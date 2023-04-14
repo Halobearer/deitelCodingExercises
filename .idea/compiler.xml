@@ -2,7 +2,7 @@
 <project version="4">
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cohortFourteen" options="--add-exports java.base/sun.util.locale.provider=ALL-UNNAMED --add-exports jdk.internal.le/jdk.internal.org.jline.keymap=ALL-UNNAMED" />
+      <module name="cohortFourteen" options="--add-exports java.base/sun.util.locale.provider=ALL-UNNAMED --add-exports jdk.internal.le/jdk.internal.org.jline.keymap=ALL-UNNAMED --add-exports jdk.javadoc/jdk.javadoc.internal.doclets.formats.html.markup=ALL-UNNAMED --add-exports jdk.internal.le/jdk.internal.org.jline.utils=ALL-UNNAMED" />
     </option>
   </component>
 </project>

@@ -7,6 +7,10 @@ public class enhancedForLoop {
         for (int damian:numbers){ // The enhanced for loop
             if (damian%2 == 0) System.out.println(damian);
             // The even number syntax
+
+            for (int i = 0; i < numbers.length; i++) {
+
+            }
         }
     }
 }
