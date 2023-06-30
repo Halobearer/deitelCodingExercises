@@ -24,7 +24,7 @@ public class AirConditioner {
     }
 
     public void setTemperature(int degrees) {
-        if (degrees <= 30 && degrees >= 16) {
+        if (degrees <= 30 & degrees >= 16) {
             temperature = degrees;
         }
     }

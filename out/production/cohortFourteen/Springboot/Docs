@@ -1,0 +1,3 @@
+The ORM is the Object Relational Mapper
+
+It converts Java objects to Database Entities/ a row in the database

@@ -88,7 +88,7 @@ public class AirConditionerTest {
         //when the initial temperature is
         panasonic.setTemperature(28);
         //when I Decrease temperature below 16
-        panasonic.decreaseTemperature(16);
+        panasonic.decreaseTemperature(12);
         //check that temperature is 16
         int temperature = panasonic.getTemperature();
         assertEquals(16, temperature);
