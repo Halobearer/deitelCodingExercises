@@ -1,0 +1,23 @@
+1. RE
+2. Design
+Implementation
+Testing
+Requirement Engineering
+documentation
+maintenance
+_________________________________________________
+Parts of a system
+
+Input
+Output
+ALU
+CPU
+Hard disk
+RAM
+__________________________________________________
+
+The Outer Loop goes through the rows in the multi-dimensional array
+The Inner Loop goes through the columns in the multi-dimensional array
+_____________________________________________________________________'
+Inheritance -(is a) relationship
+Composition- (has a) relationship
